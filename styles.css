@@ -3,32 +3,23 @@
 body {
     color: #555;
     margin: 0;
-
     font-family: 'Montserrat', sans-serif;
 }
 
 #header {
     background-color: #1abc9c;
-    height: 150px;
-    line-height: 150px;
-}
+    height: 80px;
+    color: black;
+    margin: 0px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
 
-#header a {
-    color: white;
-    text-decoration: none;
-
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-
-}
-
-#header a:hover {
-    color: #222;
 }
 
 #header-title {
     display: block;
-    float: letf;
+    float: left;
+    color: black;
 
     font-size: 20px;
     font-weight: bold;
@@ -43,11 +34,19 @@ body {
 #header-nav li {
     display: inline;
     padding-left: 20px;
+    font-weight: bold;
 }
 
-.post-container {
-    max-width: 1000px;
-    margin: 0 auto;
+.about1{
+    color: black;
+}
+
+.about2{
+    color: black;
+}
+
+#header a:hover {
+    color: rgb(4, 25, 212);
 }
 
 #footer {
@@ -82,16 +81,10 @@ a:hover {
 
 }
 
-.post {
-    max-width: 800px;
+.post{
+    max-width: 800;
     margin: 0 auto;
-    padding: 60 px 0;
-}
-
-.post, .about {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60 px 0;
+    padding: 60px 0;
 }
 
 .post-author img {
@@ -118,19 +111,36 @@ h1, h2, h3, h4{
     color: #333;
 }
 
-p {
+p{
     line-height: 1.5;
-
 }
 
-.about{
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60 px 0;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60 px 0;
     text-align: center;
 }
 
-.post-author img, .about-author img {
+.post-author img {
     border-radius: 50%;
 }
 
+.about-author img {
+    border-radius: 50%;
+}
+
+.post-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .post-container:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #be3f3f;
 }
